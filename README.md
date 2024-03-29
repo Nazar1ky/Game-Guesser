@@ -4,7 +4,7 @@
 
 Install `requests`
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Run `main.py`
 ```
@@ -13,7 +13,7 @@ python main.py
 
 ## Examples
 
-### Mode 1, Game with uknown symbols:
+### Mode 1, Game with unknown symbols:
 Game: `Balatro`
 
 Only known: `*a*at**`, result: `['Cavatus', 'ZaBaTa!', 'Lakatos', 'Balatro', 'NARATHA']`
